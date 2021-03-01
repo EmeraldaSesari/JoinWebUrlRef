@@ -1,0 +1,167 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/OrcaTests/OrcaTests.csproj": {}
+  },
+  "projects": {
+    "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/Orca.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/Orca.csproj",
+        "projectName": "Orca",
+        "projectPath": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/Orca.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[3.25.0, )"
+            },
+            "Microsoft.Graph.Auth": {
+              "target": "Package",
+              "version": "[1.0.0-preview.6, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.27.0, )"
+            },
+            "Microsoft.SharePointOnline.CSOM": {
+              "target": "Package",
+              "version": "[16.1.20912.12000, )"
+            },
+            "PnP.Framework": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/OrcaTests/OrcaTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/OrcaTests/OrcaTests.csproj",
+        "projectName": "OrcaTests",
+        "projectPath": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/OrcaTests/OrcaTests.csproj",
+        "packagesPath": "/Users/macbookair/.nuget/packages/",
+        "outputPath": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/OrcaTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/macbookair/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/Orca.csproj": {
+                "projectPath": "/Users/macbookair/Desktop/postgraduate/term2/software abstractions & systems integration/Orca-feature-MsGraphSubscription/Orca/Orca.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
